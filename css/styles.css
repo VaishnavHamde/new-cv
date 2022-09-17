@@ -1,0 +1,143 @@
+/******************************** TAG STYLES *******************************/
+
+body{
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  color: #40514E
+}
+
+h1{
+  width: 50%;
+  margin: 0 auto;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', sans-serif;
+  margin-top: 80px;
+  color: #66BFBF;
+}
+
+h2{
+  font-weight: normal;
+}
+
+p{
+  margin: 0 auto;
+  margin-top: 1%;
+  font-family: Montserrat, sans-serif;
+}
+
+h3{
+  color: #11999E;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 7px;
+  border-color: #B1B2FF;
+  height: 0;
+  width: 4%;
+  margin: 25px auto;
+}
+
+/******************************** CLASS STYLES *******************************/
+
+.top-container{
+    margin: 0;
+    background-color: #E4F9F5;
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle-container{
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding-top: 50px;
+}
+
+.top-cloud{
+  position: absolute;
+  top: 80px;
+  right: 300px;
+}
+
+.footer-link{
+  color: #11999E;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  color: #EAF6F6;  
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #0a2e45);
+  background-image: -moz-linear-gradient(top, #3498db, #0a2e45);
+  background-image: -ms-linear-gradient(top, #3498db, #0a2e45);
+  background-image: -o-linear-gradient(top, #3498db, #0a2e45);
+  background-image: linear-gradient(to bottom, #3498db, #0a2e45);
+  -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 30px;
+  text-shadow: 3px 2px 2px #666666;
+  font-family: Montserrat, sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 20px 30px 20px 30px;
+  text-decoration: none;
+  margin: 10px auto 40px auto;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #15415e);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #15415e);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #15415e);
+  background-image: -o-linear-gradient(top, #3cb0fd, #15415e);
+  background-image: linear-gradient(to bottom, #3cb0fd, #15415e);
+  text-decoration: none;
+}
+
+.comp-img{
+  width: 15%;
+  border-radius: 100%;
+  float: left;
+}
+
+.chilli-img{
+  width: 15%;
+  border-radius: 100%;
+  float: right;
+}
+
+.pandus-img{
+  max-width: 10%;
+  border-radius: 100%;
+}
+
+.programmer{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 0 auto 0 auto;
+  text-align: left;
+  line-height: 2;
+}
